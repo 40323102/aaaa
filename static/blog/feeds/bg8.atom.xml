@@ -1,0 +1,9 @@
+d364e35_0.0.0.0_zh-cn_62f44da969700d1e (6.1.7601.22863), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 12:04:56, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-i..timezones.resources_31bf3856ad364e35_6.1.7601.22863_zh-cn_41743bd098cf100a, elevate: 2, applicable(true/false): 0
+2016-02-02 12:04:56, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-i..rnational-timezones_31bf3856ad364e35_0.0.0.0_none_953fe7a70a19be4f (6.1.7601.22863), elevation:2, lower version revision holder: 6.1.7601.19055
+2016-02-02 12:04:56, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-i..rnational-timezones_31bf3856ad364e35_6.1.7601.22863_none_73bfd5ce3978c13b, elevate: 2, applicable(true/false): 0
+2016-02-02 12:04:56, Info                  CBS    Appl: Selfupdate, Component: wow64_microsoft-windows-i..rnational-timezones_31bf3856ad364e35_0.0.0.0_none_9f9491f93e7a804a (6.1.7601.22863), elevation:2, lower version revision holder: 6.1.7601.19055
+2016-02-02 12:04:56, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: wow64_microsoft-windows-i..rnational-timezones_31bf3856ad364e35_6.1.7601.22863_none_7e1480206dd98336, elevate: 2, applicable(true/false): 0
+2016-02-02 12:04:56, Info                  CBS    Appl: Selfupdate, Component: x86_microsoft-windows-i..timezones.resources_31bf3856ad364e35_0.0.0.0_ar-sa_12afa43804ee37f6 (6.1.7601.22863), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 12:04:56, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: x86_microsoft-windows-i..timezones.resources_31bf3856ad364e35_6.1.7601.22863_ar-sa_f12f925f344d3ae2, elevate: 2, applicable(true/false): 0
+2016-02-02 

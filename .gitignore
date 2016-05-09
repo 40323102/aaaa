@@ -1,0 +1,4 @@
+1.7601.22473_sr-..-cs_b36c400eaa46b048, elevate: 2, applicable(true/false): 0
+2016-02-02 11:21:32, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-crypt32-dll.resources_31bf3856ad364e35_0.0.0.0_sv-se_333b70e902fc280d (6.1.7601.22473), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:21:32, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-crypt32-dll.resources_31bf3856ad364e35_6.1.7601.22473_sv-se_11b0878c3263524e, elevate: 2, applicable(true/false): 0
+2016-02-02 11:21:32, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-crypt32-dll.resources_31bf3856ad364e35_0.0.0.0_th-th_d845929bf440e54e (6.1.7601.22473), elevation:2, lower version revision holder: 

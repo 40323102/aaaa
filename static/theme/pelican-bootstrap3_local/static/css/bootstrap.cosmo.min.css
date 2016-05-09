@@ -1,0 +1,1048 @@
+h1>
+                    <div class="slideSubHeading narrator">Click below and be one of the first to get your free upgrade to Windows 10. There’s no obligation, and you can cancel your reservation at any time.</div>
+                    <div class="reservationControls">
+                        <div class="btnWhite reserveBtn"><a href="#" id="checkReservationStatus_Reserve">Reserve</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="compatNotReadySlide" class="slide whiteBg">
+                <div class="slideFullWidth">
+                    <h1 class="slideHeading">This report isn’t available at the moment</h1>
+                    <div class="narrator slideSubHeading">You can still reserve your upgrade. When it’s time to start the upgrade, we’ll run another report to make sure that your PC works with Windows 10.</div>
+                    <div class="btnWhite reserveBtn"><a href="#" id="compatNotReadySlide_Reserve">Reserve</a></div>
+                </div>
+            </div>
+
+            <div id="getHelpSlide" class="slide whiteBg noNav">
+
+                <div class="slideFullWidth">
+                    <h1 class="slideHeading">Microsoft Answer Desk has you covered</h1>
+                    <div class="slideSubHeading narrator">Reserve your copy of Windows 10 with confidence.<br /><br /> If you need help with Windows 10 when it’s available in early August, you’ll get free set-up and installation support from an Answer Tech via phone or chat.<br /><br /> For questions about reserving your copy, take a look at our <a id="getHelpSlide_faq" href="http://go.microsoft.com/fwlink/?LinkId=522192" target="_blank">Upgrading to Windows 10 frequently asked questions</a>.</div>
+                    <div class="reservationControls oneBtn">
+                        <div class="btnWhite reserveBtn"><a href="#" id="getHelp_Reserve">Reserve now</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="compat" class="whiteBg">
+                <div class="stringTable">
+                    <!-- left nav link strings -->
+                    <div id="compat_nav_success">Your PC is ready</div>
+                    <div id="compat_nav_incomplete">Check your PC</div>
+                    <!-- compat report heading at landing page -->
+                    <div id="compat_landingpage_Heading_green">Your PC is ready.</div>
+                    <div id="compat_landingpage_Heading_info">Your PC is ready.</div>
+                    <div id="compat_landingpage_Heading_yellow">Your PC can be upgraded.</div>
+                    <div id="compat_landingpage_Heading_orange">This PC will have problems.</div>
+                    <div id="compat_landingpage_Heading_red">This PC will have problems.</div>
+                    <!-- compat report subheading at landing page -->
+                    <div id="compat_landingpage_SubHeading_green">This PC is compatible</div>
+                    <div id="compat_landingpage_SubHeading_info">This PC is compatible</div>
+                    <div id="compat_landingpage_SubHeading_yellow">This PC is compatible</div>
+                    <div id="compat_landingpage_SubHeading_orange">Issues require attention</div>
+                    <div id="compat_landingpage_SubHeading_red">Issues require attention</div>
+                    <!-- compat report heading -->
+                    <div id="compat_Heading_green"><div class="compat_Heading_success">You&#39;re good to go!</div></div>
+                    <div id="compat_Heading_info"><div class="compat_Heading_success">You&#39;re good to go!</div></div>
+                    <div id="compat_Heading_yellow"><div class="compat_Heading_success">This PC works with Windows 10</div></div>
+                    <div id="compat_Heading_orange"><div class="compat_Heading_failure">This PC will work with Windows 10</div></div>
+                    <div id="compat_Heading_red"><div class="compat_Heading_failure">This PC can’t run Windows 10</div></div>
+                    <div id="compat_Heading_reportFailure"><div class="compat_Heading_failure">An error occurred</div></div>
+                    <!-- compat report subheading -->
+                    <div id="compat_SubHeading_green"><div class="compat_SubHeading">Your PC will work with Windows 10.</div></div>
+                    <div id="compat_SubHeading_info"><div class="compat_SubHeading">This PC works with Windows 10, but there are some things you need to know.</div></div>
+                    <div id="compat_SubHeading_yellow"><div class="compat_SubHeading">Here are some things you need to know.</div></div>
+                    <div id="compat_SubHeading_orange"><div class="compat_SubHeading">Here are some things you need to know.</div></div>
+                    <div id="compat_SubHeading_red"><div class="compat_SubHeading">It doesn’t meet the system requirements.</div></div>
+                    <div id="compat_SubHeading_reportFailure"><div class="compat_SubHeading">An error occurred running the compatibility report, please try again later.</div></div>
+                    <!-- compat report section headings -->
+                    <div id="compat_sectionHeading_hardware"><div class="compat_Heading_hardware narrator">Hardware compatibility</div><div class="separator"><hr /></div></div>
+                    <div id="compat_sectionHeading_software"><div class="compat_Heading_software narrator">Software compatibility</div><div class="separator"><hr /></div></div>
+                    <div id="compat_sectionSubHeading_noIssues"><div class="compat_sectionSubHeading_issues narrator">0 known issues found</div></div>
+                    <div id="compat_sectionSubHeading_issues"><div class="compat_sectionSubHeading_issues narrator"><span class="issueCount"></span>known issues found</div></div>
+                    <!-- compat report section messages -->
+                    <div id="compat_sectionMsg_1"><div class="compat_SubHeading narrator">These changes will be made to your PC during the upgrade.</div></div>
+                    <div id="compat_sectionMsg_2"><div class="compat_SubHeading narrator">The app developers haven’t made these apps compatible with Windows 10, so they might not work. Check with the developers for support.</div></div>
+                    <div id="compat_sectionMsg_3"><div class="compat_SubHeading reducedFunctionality narrator">The device manufacturers haven’t made these devices compatible with Windows 10, so they will cause problems. Check with the manufacturers for support.</div></div>
+                    <div id="compat_sectionMsg_4"><div class="compat_SubHeading narrator">The device manufacturers haven’t made these devices compatible with Windows 10, so they won’t work. Check with the manufacturers for support.</div></div>
+                    <div id="compat_sectionMsg_6"><div class="compat_SubHeading criticalIssues narrator">Here&#39;s why Windows 10 can&#39;t be installed on this PC.</div></div>
+                    <div id="compat_sectionMsg_7"><div class="compat_SubHeading narrator">You&#39;ll need to uninstall these apps during the upgrade</div></div>
+                    <div id="compat_sectionMsg_8"><div class="compat_SubHeading narrator">You&#39;ll need to uninstall these apps during the upgrade, but they can be reinstalled once it has finished.</div></div>
+                    <div id="compat_sectionMsg_9"><div class="compat_SubHeading narrator">You&#39;ll need to uninstall or update these apps during the upgrade.</div></div>
+                    <div id="compat_sectionMsg_10"><div class="compat_SubHeading narrator">These apps will need to be reinstalled after the upgrade.</div></div>
+                    <div id="compat_sectionMsg_11"><div class="compat_SubHeading narrator">Keep this in mind before you upgrade.</div></div>
+                    <div id="compat_sectionMsg_12"><div class="compat_SubHeading narrator">The app developers haven’t made these apps compatible with Windows 10, so they won’t work. Check with the developers for support.</div></div>
+                    <!-- compat report AssetMajorMsgId messages -->
+                    <div id="compat_assetMajorMsg_100"><div class="compat_assetMajorMsg narrator">You need to free up some disk space on your PC.</div></div>
+                    <div id="compat_assetMajorMsg_101"><div class="compat_assetMajorMsg narrator">BitLocker encryption won&#39;t be available after upgrading.</div></div>
+                    <div id="compat_assetMajorMsg_102"><div class="compat_assetMajorMsg narrator">You need to install updates to your current version of Windows.</div></div>
+                    <div id="compat_assetMajorMsg_103"><div class="compat_assetMajorMsg narrator">Windows 10 can&#39;t be installed when your PC is in Safe Mode.</div></div>
+                    <div id="compat_assetMajorMsg_104"><div class="compat_assetMajorMsg narrator">Windows 10 can&#39;t be installed on a Windows To Go drive.</div></div>
+                    <div id="compat_assetMajorMsg_105"><div class="compat_assetMajorMsg narrator">Windows 10 can&#39;t be installed on a virtual drive.</div></div>
+                    <div id="compat_assetMajorMsg_107"><div class="compat_assetMajorMsg narrator">Because you&#39;re running a build of Windows that isn&#39;t supported, only your personal files will be available after the upgrade. Your apps and any changes you&#39;ve made to settings won&#39;t be available.</div></div>
+                    <div id="compat_assetMajorMsg_108"><div class="compat_assetMajorMsg narrator">Windows 10 can&#39;t be installed when your PC is in Audit Mode.</div></div>
+                    <div id="compat_assetMajorMsg_109"><div class="compat_assetMajorMsg narrator">You&#39;ll need to reinstall language packs after the upgrade is complete.</div></div>
+                    <div id="compat_assetMajorMsg_110"><div class="compat_assetMajorMsg narrator">Because your current version of Windows is installed in an unsupported directory, only your personal files will be available after the upgrade. Your apps and any changes you&#39;ve made to settings won&#39;t be available.</div></div>
+                    <div id="compat_assetMajorMsg_111"><div class="compat_assetMajorMsg narrator">You might need to suspend disk encryption before the upgrade.</div></div>
+                    <div id="compat_assetMajorMsg_112"><div class="compat_assetMajorMsg narrator">Windows Media Center will be uninstalled during the upgrade. It isn&#39;t available in Windows 10.</div></div>
+                    <div id="compat_assetMajorMsg_113"><div class="compat_assetMajorMsg narrator">The CPU isn&#39;t supported.</div></div>
+                    <div id="compat_assetMajorMsg_114"><div class="compat_assetMajorMsg narrator">The BIOS isn&#39;t supported.</div></div>
+                    <div id="compat_assetMajorMsg_115"><div class="compat_assetMajorMsg narrator">This PC doesn&#39;t have enough RAM.</div></div>
+                    <div id="compat_assetMajorMsg_116"><div class="compat_assetMajorMsg narrator">The hard disk controller isn&#39;t supported.</div></div>
+                    <div id="compat_assetMajorMsg_117"><div class="compat_assetMajorMsg narrator">There are no supported networking devices.</div></div>
+                    <div id="compat_assetMajorMsg_118"><div class="compat_assetMajorMsg narrator">You won&#39;t be able to restore your PC to factory settings after the upgrade.</div></div>
+                    <div id="compat_assetMajorMsg_119"><div class="compat_assetMajorMsg narrator">Touchscreen: Yes</div></div>
+                    <div id="compat_assetMajorMsg_120"><div class="compat_assetMajorMsg narrator">Touchscreen: Not Required</div></div>
+                    <div id="compat_assetMajorMsg_121"><div class="compat_assetMajorMsg narrator">You will need to activate Windows before upgrading.</div></div>
+                    <div id="compat_assetMajorMsg_122"><div class="compat_assetMajorMsg narrator">You won’t be able to use the Guest account on Windows 10.</div></div>
+                    <!-- compat report AssetMinorMsgId messages -->
+                    <div id="compat_assetMinorMsg_200"><div class="compat_assetMinorMsg narrator">The display manufacturer hasn’t made your display compatible with Windows 10. Check with the manufacturer for support.</div></div>
+                    <div id="compat_assetMinorMsg_201"><div class="compat_assetMinorMsg narrator">You won’t have audio.</div></div>
+                    <div id="compat_assetMinorMsg_202"><div class="compat_assetMinorMsg narrator">You might not be able to connect to the Internet.</div></div>
+                    <div id="compat_assetMinorMsg_209"><div class="compat_assetMinorMsg narrator">This printer won’t work.</div></div>
+                    <div id="compat_assetMinorMsg_210"><div class="compat_assetMinorMsg narrator">This device isn’t supported.</div></div>
+                    <div id="compat_assetMinorMsg_203"><div class="compat_assetMinorMsg narrator">You won’t have audio and your microphone won’t work.</div></div>
+                    <!-- compat buttons -->
+                    <div id="compat_reserveButton">Reserve your free upgrade</div>
+                    <div id="compat_closeButton">Close</div>
+                    <div id="compat_PCleadIn">Would you like to see what new PCs are available?</div>
+                    <div id="compat_PCButton">Yes, show me new PCs</div>
+                    <div id="compat_PCNoThanks">No thanks, I’ve finished</div>
+                    <!-- orange compat strings -->
+                    <div class="compat_singleDevice">1 device is not compatible</div>
+                    <div class="compat_twoDevices">2 devices are not compatible</div>
+                    <div class="compat_multipleDevices">Some devices are not compatible</div>
+                    <div class="compat_singleApp">1 app is not compatible</div>
+                    <div class="compat_twoApps">2 apps are not compatible</div>
+                    <div class="compat_multipleApps">Some apps are not compatible</div>
+                    <div class="compat_appsAndDevices">Some apps and devices are not compatible</div>
+                    <!-- landing page links -->
+                    <div class="compatLandingPage-nonGreen">See PC <a href="#" class="compat_viewReport">compatibility report</a></div>
+                    <div class="compatLandingPage-orange"><div class="compatLandingPage-orange-label"></div>– <a href="#" class="compat_viewReport">View Report</a></div>
+                </div>
+
+                <div class="slideFullWidth">
+                    <div id="compat_success_icon"></div>
+                    <h1 id="compat_Heading" class="slideHeading">Compatibility Report</h1>
+                    <div id="compat_SubHeading" class="narrator"></div>
+                    <div id="compatReport">
+                        <div id="compat_section_success">
+                            <div class="compat_section_success_column">
+                                <div class="compat_section_success_heading">
+                                    <div class="compat_section_heading">Your PC</div>
+                                    <div class="separator"><hr /></div>
+                                </div>
+                                <div class="compat_section_success_list">
+                                    <div id="compat_section_success_memory" class="success"><img class="success" src="../resources/images/compat_checkmark_success_small.png" /><p>Memory: Meets requirements</p>
+                                    </div>
+                                    <div id="compat_section_success_processor" class="success"><img class="success" src="../resources/images/compat_checkmark_success_small.png" /><p>Processor: 1 GHz or faster</p>
+                                    </div>
+                                    <div id="compat_section_success_touchscreen" class="disabled"><img class="success" src="../resources/images/compat_checkmark_success_small.png" /> <img class="disabled" src="../resources/images/compat_checkmark_disabled.png" /><p id="compat_section_success_touchscreen_subheading"></p>
+                                    </div>
+                                    <div id="compat_section_success_devices" class="success"><img class="success" src="../resources/images/compat_checkmark_success_small.png" /> <img class="issues" src="../resources/images/compat_checkmark_issues.png" /><p>Printers and other devices: Compatible</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="compat_section_success_column">
+                                <div class="compat_section_success_heading">
+                                    <div class="compat_section_heading">Your apps &amp; data</div>
+                                    <div class="separator">
+                                        <hr />
+                                    </div>
+                                </div>
+                                <div class="compat_section_success_list">
+                                    <div id="compat_section_success_apps" class="success"><img class="success" src="../resources/images/compat_checkmark_success_small.png" /> <img class="issues" src="../resources/images/compat_checkmark_issues_apps.png" /><p><span class="success">Apps. 0 incompatible</span> <span class="issues">Some apps aren&#39;t compatible (<a href="#" id="compat_apps_details">details</a>)</span></p>
+                                    </div>
+                                    <div id="compat_section_success_data" class="success"><img class="success" src="../resources/images/compat_checkmark_success_small.png" /><p>Data and files: Ready</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="compatTable"><div class="separator"><hr /></div></div>
+                        <div id="compat_section_critical">
+                            <div class="compatTable">
+                                <div id="criticalIcon" class="compat_criticalIcon"> </div>
+                                <div class="compat_section_heading narrator">About your PC</div>
+                                <div class="separator">
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="compat_section_critical_subheading narrator">Here’s why Windows 10 can’t be installed on this PC.</div>
+                            <div id="section_critical"></div>
+                        </div>
+
+                        <div id="compat_section_notes">
+                            <div class="compat_notesIcon"> </div>
+                            <div id="section_notes" class="narrator"></div>
+                        </div>
+
+                        <div id="compat_section_hardware">
+                            <div class="compatTable">
+                                <div id="hardwareIcon" class="compat_issuesIcon"> </div>
+                                <div class="compat_section_heading narrator">Devices</div>
+                                <div class="separator">
+                                    <hr />
+                                </div>
+                            </div>
+                            <div id="section_hardware"></div>
+                        </div>
+
+                        <div id="compat_section_apps">
+                            <div class="compatTable">
+                                <div id="appsIcon" class="compat_issuesIcon"> </div>
+                                <div class="compat_section_heading narrator">Apps</div>
+                                <div class="separator">
+                                    <hr />
+                                </div>
+                            </div>
+                            <div id="section_apps"></div>
+                        </div>
+
+                    </div>
+                    <div id="compatButtons" class="reservationControls">
+                        <div class="compat_description narrator">Check this report for updates. We&#39;re continuously working with partners to make more apps and devices compatible with Windows 10.</div>
+                        <div class="compat_lastRun narrator">Last run</div>
+                        <div class="btnWhite reserveBtn"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="email" class="slide whiteBg">
+                <div class="slideFullWidth"><iframe scrolling="no" frameborder="0" id="mailIFrame"></iframe></div>
+            </div>
+
+        </div>
+
+        <!-- Support issues -->
+        <div class="stringTable" id="supportIssues">
+            <div id="supportMsg_1" class="supportMsg" entries="{7271203C-35CF-485F-AB0A-F5BE72F0AEBF};{2CD18E07-9714-4C1D-8740-33ED5525411F};{3760B904-4B48-4054-A6BC-BF7B22AC94F2};{8B4C61DE-C20B-4D0E-8008-B370248CD5A2};{B509A7C4-0935-4820-8579-60469E6211EC};{FE2FDB30-333A-476C-82ED-2BB372FE9BFE};{A6F45E12-5B20-49D7-B1AF-031ACF69D17D};{375A2D26-A8F6-49FF-806D-3F8C0DA8296C};{71D9078D-E198-4389-8C7B-758D70F4491D};{7112111A-162A-47DE-BD27-A581BBF12974};{6882A989-D201-4EFB-B419-49A2E8D37B8B};{136CCE03-90D0-49F0-9CB2-11B364DF0424};{24280E9E-A7AD-4E9C-A43D-74D62E1A944D};{B67D3762-0855-4065-904A-4C643E198ED5};{F14A2EB6-FED7-48E9-817A-39B2486466C8};{29C46DA5-E895-485F-9096-E19296E9959F};{DF93CD8E-463E-4D5E-B5DB-8040380E847B};{34AAE8CC-8846-4670-A977-94B259A9A127};{AE5E0F43-DA1C-4A80-ADED-75B5660D2450};{5549CE2A-2146-46A0-9943-E735C00BF915};{EDAC8EEA-2027-45B1-A943-7A76CE4311E1};{78888EF3-E5B6-4161-AE65-4A73933C0127};{D4238495-878E-4124-BF44-4C3B4CA368F8};{4A078A0C-8AB1-4F09-875C-8F4874BFADF1};{5F399CAB-D7D3-41D1-920D-B813DDB4BEA2}">Critical hardware components made by Intel for your PC don’t have drivers for Windows 10 yet.<br /><i>Contact Intel for more information.</i></div>
+            <div id="supportMsg_2" class="supportMsg" entries="{391CABD4-F8C2-4646-AE86-021F556F6573}">Your PC is set up to log in automatically. After upgrade, you may have issues logging in. <a href="http://aka.ms/autologon" target="_blank" clickid="supportMsg_2_learnmore">Learn more</a>.</div>
+        </div>
+
+        <div class="slides noNav" id="slidesNoNav">
+        </div>
+
+
+        <div class="slides" id="slides">
+            <div id="downloadCompletedSlide" class="slide blueBgImg6040 landingPage">
+                <div class="slideProgressStatus">
+                    <h1 class="slideHeading">Your free Windows 10 upgrade is here!</h1>
+                    <div class="floatLeft">
+                        <div class="progressPhase completed">
+                            <div class="progressPhaseIcon"><div></div></div>
+                            <div class="progressPhaseHeading">
+                                <div class="progressPhaseName narrator">Reservation</div>-<div class="progressPhaseStatus narrator">Confirmed</div>
+                            </div>
+                        </div>
+                        <div class="progressPhase completed">
+                            <div class="progressPhaseIcon"><div></div></div>
+                            <div class="progressPhaseHeading">
+                                <div class="progressPhaseName narrator">Download</div>-<div class="progressPhaseStatus narrator">Complete</div>
+                            </div>
+                        </div>
+                        <div class="progressPhase inprogress">
+                            <div class="progressPhaseIcon"><div></div></div>
+                            <div class="progressPhaseHeading">
+                                <div class="progressPhaseName narrator">Upgrade</div>-<div class="progressPhaseStatus narrator">Available</div>
+                            </div>
+                        </div>
+                        <div class="nextSteps">
+                            <div class="narrator">Here’s what happens next:</div>
+                            <ol>
+                                <li class="narrator">Expect a 10 second prep of your device</li>
+                                <li class="narrator">Review the licence agreement</li>
+                                <li class="narrator">Choose when to upgrade</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="downloadInProgressSlide" class="slide blueBgImg6040 landingPage">
+                <div class="slideProgressStatus">
+                    <h1 class="slideHeading">Windows 10 is downloading!</h1>
+                    <div class="floatLeft">
+                        <div class="progressPhase completed">
+                            <div class="progressPhaseIcon"><div></div></div>
+                            <div class="progressPhaseContent">
+                                <div class="progressPhaseHeading">
+                                    <div class="progressPhaseName narrator">Reservation</div>-<div class="progressPhaseStatus narrator">Confirmed</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progressPhase inprogress">
+                            <div class="progressPhaseIcon"><div></div></div>
+                            <div class="progressPhaseContent">
+                                <div class="progressPhaseHeading">
+                                    <div class="progressPhaseName narrator">Download</div>-<div class="progressPhaseStatus narrator">In progress</div>
+                                </div>
+                                <p>Windows 10 is downloading in the background. We’ll let you know when you can start the upgrade.</p>
+                            </div>
+                        </div>
+                        <div class="progressPhase pending">
+                            <div class="progressPhaseIcon"><div></div></div>
+                            <div class="progressPhaseContent">
+                                <div class="progressPhaseHeading">
+                                    <div class="progressPhaseName narrator">Upgrade</div>-<div class="progressPhaseStatus narrator">Coming soon</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="gatedWarnSlide" class="slide blueBgImg7030 landingPage">
+                <div class="slide7030">
+                    <h1 class="slideHeading">Your free upgrade is on the way</h1>
+                    <div class="floatLeft">
+                        <ul>
+                            <li>This PC’s reservation for the free upgrade is confirmed.</li>
+                            <li>We’re rolling out the upgrades in phases to manage high demand. We’ll notify you once Windows 10 is downloaded and we can confirm that your PC is ready.</li>
+                            <li>The notification to upgrade could come in as soon as a few days or weeks.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue reserveBtn"></div>
+                    <div class="upgradeFaqLink"><a id="gatedWarnSlide_faq" href="http://go.microsoft.com/fwlink/p/?LinkID=617363" target="_blank">Read the Upgrade FAQ</a></div>
+                </div>
+            </div>
+
+            <div id="gatedBlockSlide" class="slide blueBgImg7030 landingPage">
+                <div class="slide7030">
+                    <h1 class="slideHeading">Thank you for your interest in the Windows 10 upgrade</h1>
+                    <div class="floatLeft">
+                        <p>Thank you for reserving your free upgrade. We recommend that you upgrade after you get your notification that Windows 10 is ready for your specific PC.</p>
+                        <p>While upgrades have started for most PCs, we’re continuously working with our partners to ensure that even more PCs work well with Windows 10.</p>
+                        <p>Your notification to upgrade could come in as soon as a few days or weeks.</p>
+                    </div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue reserveBtn"></div>
+                    <div class="bottomLink"><a href="#">More information</a></div>
+                </div>
+            </div>
+
+            <div id="domainJoinedPolicyNotSetSlide1" class="slide blueBgImg7030 landingPage">
+                <div class="slide7030">
+                    <h1 class="slideHeading">This is a job for a system administrator</h1>
+                    <div class="floatLeft">
+                        <p>This PC is on a managed network and can’t be upgraded to Windows 10 without the permission of your system administrator.</p>
+                        <p>If you’re a system administrator, you can learn more about how to upgrade your organisation to Windows 10 and customise this app for your group.</p>
+                    </div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="domainJoinedPolicyNotSetSlide2" class="slide blueBgImg7030 landingPage">
+                <div class="slide7030">
+                    <h1 class="slideHeading">Talk to your system administrator about Windows 10</h1>
+                    <div class="floatLeft">
+                        <p>It’s possible to upgrade this PC to Windows 10, but please talk to your system administrator to make sure that your organisation is ready for the upgrade.</p>
+                    </div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="domainJoinedUpgradeBlockedSlide" class="slide blueBgImg7030 landingPage">
+                <div class="slide7030">
+                    <h1 class="slideHeading">Your system administrator has blocked upgrades on this PC</h1>
+                    <div class="floatLeft">
+                        <p>This domain-joined PC is on a managed network. Please check with your system administrator about upgrading this PC to Windows 10.</p>
+                        <p>If you’re a system administrator, you can learn more about how to upgrade your organisation to Windows 10 and customise this app for your group.</p>
+                    </div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="domainJoinedUpgradeAllowedSlide" class="slide blueBgImg7030 landingPage">
+                <div class="slide7030">
+                    <h1 class="slideHeading">You’re cleared for upgrade!</h1>
+                    <div class="floatLeft">
+                        <p>This PC has been cleared by your system administrator for an upgrade to Windows 10. Microsoft recommends upgrading for the best performance and security. Your existing files will not be affected.</p>
+                        <p>If you are a system administrator, <a id="domainJoinedUpgradeAllowed_info" href="http://go.microsoft.com/fwlink/?LinkId=692013" target="_blank" class="whiteBoldUnderlined">learn more about how to upgrade your organisation and customise this app for your group</a>.</p>
+                    </div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="cannotInstallSlide" class="slide blueBgImg landingPage">
+                <div class="slide6040">
+                    <h1 class="slideHeading">Unfortunately, this PC is unable to run Windows 10.</h1>
+                    <div class="floatLeft">
+                        <p>We’re sorry to let you know that this PC can’t upgrade to Windows 10 because one or more things are incompatible. See right for details.</p>
+                        <p>Click below to learn more about new Windows 10 devices.</p>
+                    </div>
+                    <div class="separator">
+                        <div class="cannotInstallSlide_icon"></div>
+                        <div class="cannotInstallSlide_separator"></div>
+                    </div>
+                    <div class="floatRight">
+                        <div class="homeCompat_heading">Compatibility issue:</div>
+                        <div class="homeCompat">
+                            <div class="homeCompat_issues"></div>
+                            <div class="homeCompat_link"><a clickid="cannotInstallSlide_viewReport" class="singleIssues compat_viewReport" href="#">View report</a> <a clickid="cannotInstallSlide_viewReport" class="multipleIssues compat_viewReport" href="#">View all issues</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue reserveBtn"></div>
+                    <div class="bottomLink"><a id="cannotInstallSlide_noThanks" href="#">No thanks, maybe later</a></div>
+                </div>
+            </div>
+
+            <div id="detailsSlide" class="slide blueBgImg7030 landingPage">
+                <div class="slide7030">
+                    <h1 class="slideHeading">Additional details</h1>
+                    <div class="floatLeft">
+                        <p>We’re working with our partners to make sure that Windows 10 is ready for your particular PC. When you get your notification, it means that you can proceed with your upgrade.</p>
+                        <p class="detailsSection">Details: <br /><span id="detailsSectionInner"></span></p>
+                    </div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue reserveBtn"></div>
+                    <div class="bottomLink"><a id="detailsSlide_upgradeAnyway" href="#">I want to upgrade now anyway<br />(not recommended)</a></div>
+                </div>
+            </div>
+
+            <div id="howToGetWin10" class="slide blueBgImg landingPage pageWithVideo">
+                <div class="slide3col">
+                    <h1 class="slideHeading">How to get Windows 10 for free!</h1>
+                    <div class="slideList">
+                        <div class="slideListItem listItem1">
+                            <div class="slideListItemIcon"></div>
+                            <div class="narrator"><strong>Reserve</strong> your free, full copy of Windows 10 now.</div>
+                        </div>
+                        <div class="slideListItem listItem2">
+                            <div class="slideListItemIcon"></div>
+                            <div class="narrator"><strong>Upgrade</strong> when you get a notification that Windows 10 has downloaded and is ready for you.*</div>
+                        </div>
+                        <div class="slideListItem listItem3">
+                            <div class="slideListItemIcon"></div>
+                            <div class="narrator"><strong>Enjoy</strong> Windows 10 for free!*</div>
+                        </div>
+                        <div class="slideListItem listItemCompat success">
+                            <div class="slideListItemIcon"></div>
+                            <div class="narrator"><span id="compatLandingPage_SubHeading"></span><a id="howToGetWin10_viewReport" class="compat_viewReport" href="#">View report</a></div>
+                        </div>
+                        <div class="slideListItem listItemLearnMore">
+                            <div class="slideListItemIcon"></div>
+                            <div class="narrator"><a id="howToGetWin10_learnMore" href="http://go.microsoft.com/fwlink/?LinkId=615094" target="_blank">Learn more</a> about Windows 10</div>
+                        </div>
+                    </div>
+                    <div class="video_thumbnail"><a aria-label="Launch Video" class="unsuppressed"><img src="../resources/images/home_video.png" /></a> <img src="../resources/images/home_video_suppressed.png" class="suppressed" /> <span class="video_title">Introducing Windows 10 – The best Windows yet</span> <span class="video_duration">1:14 min</span></div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue reserveBtn"></div>
+                    <div class="disclaimer narrator">* Yes, free. Full version of Windows 10, not a trial. 3 GB background download required; Internet access fees may apply.</div>
+                </div>
+            </div>
+
+            <div id="joinTheMillionsSlideD" class="slide landingPage">
+                <div class="slideWuStyle">
+                    <div class="wu-box">
+                        <div class="wu-box-colorband"></div>
+                        <div class="wu-box-brand"></div>
+                        <div class="wu-box-content">
+                            <div class="wu-box-heading">Microsoft recommends upgrading to Windows 10</div>
+                            <div class="wu-box-subheading">Upgrading to Windows 10 is free for a limited time.</div>
+                            <div class="btnWhite reserveBtn"></div>
+                            <div class="btnWhite reserveBtn reserveBtn2"></div>
+                        </div>
+                    </div>
+
+                    <div class="compat-section">
+                        <div class="compat_section_success_column">
+                            <div class="compat_section_success_list">
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p class="compatLandingPageText">This PC is compatible – <a class="compat_viewReport" href="#">View report</a></p>
+                                </div>
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p>Your files will be right where you left them</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="compat_section_success_column">
+                            <div class="compat_section_success_list">
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p>It’s fast, familiar and more secure</p>
+                                </div>
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p>It has built-in free anti-virus protection</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="disclaimer-row">
+                        <div class="disclaimer">Yes, free! Full version of Windows 10, not a trial. 3 GB+ download; Internet access fees may apply.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="upgradeIsSimpleSlide" class="slide blueBgImg6040 landingPage">
+                <div class="slideProgressStatus">
+                    <h1 class="slideHeading">Upgrading is simple</h1>
+                    <div class="floatLeft">
+                        <ul>
+                            <li>You can choose when you want to upgrade</li>
+                            <li>Your files will be right where you left them</li>
+                            <li>It’s easy to go back if you don’t like it</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btnContainer oneCol"><div class="btnBlue reserveBtn"></div></div>
+                <div class="disclaimer">It’s free! Full version of Windows 10, not a trial.</div>
+            </div>
+
+            <div id="simplifiedUnscheduledSlide" class="slide landingPage">
+                <div class="slideWuStyle slideWuStyle-smallBtn">
+                    <div class="wu-box">
+                        <div class="wu-box-colorband"></div>
+                        <div class="wu-box-brand"></div>
+                        <div class="wu-box-content">
+                            <div class="wu-box-heading">Microsoft recommends upgrading to Windows 10</div>
+                            <div class="wu-box-subheading">Upgrading to Windows 10 is free for a limited time.</div>
+                            <div class="wu-box-buttons">
+                                <div class="btnWhite reserveBtn"></div>
+                                <div class="space"></div>
+                                <div class="btnWhite"><a href="#" class="simplified-upgradeTonight">Upgrade tonight</a></div>
+                                <div class="space"></div><a href="#" class="simplified-moreOptions">Choose time</a></div>
+                        </div>
+                    </div>
+
+                    <div class="compat-section">
+                        <div class="compat_section_success_column">
+                            <div class="compat_section_success_list">
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p class="compatLandingPageText">This PC is compatible – <a class="compat_viewReport" href="#">View report</a></p>
+                                </div>
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p>Your files will be right where you left them</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="compat_section_success_column">
+                            <div class="compat_section_success_list">
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p>It’s fast, familiar and more secure</p>
+                                </div>
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p>It has built-in free anti-virus protection</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="disclaimer-row">
+                        <div class="disclaimer">Yes, free! Full version of Windows 10, not a trial. 3 GB+ download; Internet access fees may apply.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="simplifiedConfirmationSlide" class="slide landingPage">
+                <div class="slideSimplified slideSimplified-big">
+                    <div class="actionBox">
+                        <div class="actionBox-content">
+                            <div class="actionBox-heading">Great! Your Windows 10 upgrade is scheduled for:</div>
+                            <div class="actionBox-date"></div>
+                            <div class="actionBox-main">
+                                <ul>
+                                    <li>Stay connected to the Internet now so that Windows 10 can be downloaded</li>
+                                    <li>Leave your PC on and plugged in during the upgrade</li>
+                                </ul>
+                            </div>
+                            <div class="actionBox-links"><a href="#" class="simplified-chooseTime">Reschedule or cancel upgrade</a></div>
+                        </div>
+                    </div>
+                    <div class="btnWhite"><a href="#" class="simplified-close">Close</a></div>
+                </div>
+            </div>
+
+            <div id="optIn_ScheduledSlide" class="slide landingPage">
+                <div class="slideSimplified">
+                    <div class="actionBox">
+                        <div class="actionBox-content">
+                            <div class="actionBox-heading">Your Windows 10 upgrade is scheduled for:</div>
+                            <div class="actionBox-date"></div>
+                            <div class="actionBox-main">
+                                <ul>
+                                    <li>Stay connected to the Internet now so that Windows 10 can be downloaded</li>
+                                    <li>Leave your PC on and plugged in during the upgrade</li>
+                                </ul>
+                            </div>
+                            <div class="actionBox-buttons">
+                                <div class="btnWhite reserveBtn"></div>
+                                <div class="space"></div><a href="#" class="simplified-reschedule">Reschedule</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="optOut_ScheduledSlide" class="slide landingPage">
+                <div class="slideWuStyle">
+                    <div class="wu-box">
+                        <div class="wu-box-colorband"></div>
+                        <div class="wu-box-brand"></div>
+                        <div class="wu-box-content">
+                            <div class="wu-box-heading">Thanks for reserving. Your Windows 10 upgrade is here!</div>
+                            <div class="wu-box-main">
+                                <div class="wu-box-text">Your PC is scheduled to be upgraded on:</div>
+                                <div class="wu-box-date actionBox-date"></div>
+                            </div>
+                            <div class="wu-box-bottomText">Click <a href="#" class="simplified-reschedule">here</a> to change upgrade schedule or cancel upgrade</div>
+                        </div>
+                    </div>
+
+                    <div class="compat-section">
+                        <div class="compat_section_success_column">
+                            <div class="compat_section_success_list">
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p class="compatLandingPageText">This PC is compatible – <a class="compat_viewReport" href="#">View report</a></p>
+                                </div>
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p>Your files will be right where you left them</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="compat_section_success_column">
+                            <div class="compat_section_success_list">
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p>It’s fast, familiar and more secure</p>
+                                </div>
+                                <div><img src="../resources/images/compat_checkmark_success_small.png" /><p>Upgrading is free for a limited time</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom-controls"><a href="#" class="reserveBtn"></a><div class="btnWhite"><a href="#" class="simplified-close">OK</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="simplifiedCountdownSlide" class="slide landingPage">
+                <div class="slideSimplified slideSimplified-big slideSimplified-logo">
+                    <div class="actionBox">
+                        <div class="actionBox-brand"></div>
+                        <div class="actionBox-content">
+                            <div class="actionBox-heading">Your Windows 10 upgrade is almost here!</div>
+                            <div class="actionBox-main">
+                                <ul>
+                                    <li>Save your work, and leave your PC on and plugged in</li>
+                                    <li>The upgrade usually takes 90 minutes or less</li>
+                                    <li>Your files will be right where you left them</li>
+                                    <li>Your PC will restart several times</li>
+                                    <li class="nonAdminOnly">Make sure that you’re logged in as an administrator</li>
+                                </ul>
+                                <div class="actionBox-label">Your upgrade will start in</div>
+                                <div class="actionBox-countdown"></div>
+                                <div class="actionBox-countdown-text">
+                                    <div class="actionBox-countdown-1day">1 day</div>
+                                    <div class="actionBox-countdown-2days">2 days</div>
+                                    <div class="actionBox-countdown-3days">3 days</div>
+                                    <div class="actionBox-countdown-over">Preparing to begin upgrade…</div>
+                                </div>
+                                <div class="actionBox-links"><a href="#" class="simplified-moreTime">I need more time</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btnWhite reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="simplifiedRestartNowSlide" class="slide landingPage">
+                <div class="slideSimplified slideSimplified-big">
+                    <div class="actionBox">
+                        <div class="actionBox-content">
+                            <div class="actionBox-heading">You’re about to make your PC very happy</div>
+                            <div class="actionBox-main">
+                                <ul>
+                                    <li>Save your work, and leave your PC on and plugged in</li>
+                                    <li>The upgrade usually takes 90 minutes or less</li>
+                                    <li>Your files will be right where you left them</li>
+                                    <li>Your PC will restart several times</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btnWhite reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="simplifiedChooseTimeSlide" class="slide landingPage">
+                <div class="slideSimplified slideSimplified-big">
+                    <div class="actionBox">
+                        <div class="actionBox-content">
+                            <div class="actionBox-heading">Choose a time to upgrade</div>
+                            <div class="actionBox-main">
+                                <ul>
+                                    <li>The upgrade usually takes 90 minutes or less</li>
+                                    <li>Choose a time when you won’t be using your PC</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="timeChooser">
+                                    <div class="timeChooser-controls">
+                                        <div>
+                                            <div class="select timeChooser-date">
+                                                <div class="select-active">
+                                                    <div class="select-active-text"></div>
+                                                    <div class="select-active-arrow"></div>
+                                                </div>
+                                                <div class="select-options"></div>
+                                            </div>
+                                        </div>
+                                        <div><span class="timeChooser-at">at</span></div>
+                                        <div>
+                                            <div class="select timeChooser-time">
+                                                <div class="select-active">
+                                                    <div class="select-active-text"></div>
+                                                    <div class="select-active-arrow"></div>
+                                                </div>
+                                                <div class="select-options"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="actionBox-links"><a href="#" class="simplified-cancel">Cancel scheduled upgrade</a></div>
+                        </div>
+                    </div>
+                    <div class="btnWhite"><a href="#" class="simplified-confirm">Confirm</a></div>
+                </div>
+            </div>
+
+            <div id="simplifiedPostponeSlide" class="slide landingPage">
+                <div class="slideSimplified slideSimplified-big">
+                    <div class="actionBox">
+                        <div class="actionBox-content">
+                            <div class="actionBox-heading">How much time do you need?</div>
+                            <div class="actionBox-main">
+                                <div class="postpone-control">
+                                    <div class="select postpone-hours">
+                                        <div class="select-active">
+                                            <div class="select-active-text"></div>
+                                            <div class="select-active-arrow"></div>
+                                        </div>
+                                        <div class="select-options">
+                                            <div class="select-option selected" value="0">Select</div>
+                                            <div class="select-option" value="2">2 hours</div>
+                                            <div class="select-option" value="4">4 hours</div>
+                                            <div class="select-option" value="6">6 hours</div>
+                                            <div class="select-option" value="8">8 hours</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="actionBox-countdown-section">
+                                    <div class="actionBox-label">Your upgrade will be installed in</div>
+                                    <div class="actionBox-countdown"></div>
+                                </div>
+                                <ul>
+                                    <li>The upgrade usually takes 90 minutes or less</li>
+                                    <li>Leave your PC on and plugged in</li>
+                                </ul>
+                                <div class="actionBox-links"><a href="#" class="simplified-reschedule">Reschedule</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btnWhite"><a href="#" class="simplified-close">Close</a></div>
+                </div>
+            </div>
+
+            <div id="simplifiedCancelUpgradeSlide" class="slide landingPage">
+                <div class="slideSimplified slideSimplified-big slideSimplified-twoButtons">
+                    <div class="actionBox">
+                        <div class="actionBox-content">
+                            <div class="actionBox-heading">Cancel your scheduled Windows 10 upgrade?</div>
+                            <div class="actionBox-main">
+                                <ul>
+                                    <li>This PC is running an older version of Windows</li>
+                                    <li>Microsoft recommends upgrading to Windows 10 for the best security and performance</li>
+                                    <li>If you don’t like it, you can go back to your current version of Windows within 30 days</li>
+                                    <li>The upgrade is free – this is a limited-time offer</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttonsRow">
+                        <div class="btnWhite"><a href="#" class="simplified-dontcancel">Don’t cancel</a></div>
+                        <div class="btnWhite"><a href="#" class="simplified-cancel">Cancel scheduled time</a></div>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="expertSlide" class="slide blueBgImg">
+                <div class="slide5050">
+                    <h1 class="slideHeading">Familiar and easy</h1>
+                    <div class="floatLeft">
+                        <div class="floatLeft">
+                            <div class="narrator">Windows 10 is familiar and easy to use. The Start menu is back and improved so you have quick access to your favourite things. You&#39;ll feel right at home in Windows 10.</div>
+                            <div class="disclaimer narrator">Some apps sold separately; vary by market.</div>
+                        </div>
+                    </div>
+                    <div class="floatRight"><img src="../resources/images/en/slide02.png" alt="Laptop showing the Windows 10 Start menu" /></div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue floatLeft reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="speedSlide" class="slide blueBgImg">
+                <div class="slide5050">
+                    <h1 class="slideHeading">Designed for speed</h1>
+                    <div class="floatLeft">
+                        <div class="narrator">Windows 10 starts fast, resumes fast and comes with more security features than ever. And it’s designed to work with the hardware and software that you already use.</div>
+                    </div>
+                    <div class="floatRight"><img src="../resources/images/en/slide03.png" alt="Laptop showing several apps open on the screen at once" /></div>
+
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue floatLeft reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="newFeaturesSlide" class="slide blueBgImg">
+                <div class="slide5050">
+                    <h1 class="slideHeading">Amazing new features</h1>
+                    <div class="floatLeft">
+                        <div class="narrator">Windows 10 is packed with innovations such as:</div>
+                        <div class="narrator"><span class="inline-checkmark-icon"></span>Microsoft Edge, an all-new browser</div>
+                        <div class="narrator"><span class="inline-checkmark-icon"></span>Great ways to stay organised and work fast</div>
+                        <div class="narrator"><span class="inline-checkmark-icon"></span>Great built-in apps such as Photos, Maps and Music</div>
+                    </div>
+                    <div class="floatRight"><img src="../resources/images/en/slide04.png" alt="Laptop showing Microsoft Edge window open with a pizza recipe" /></div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue floatLeft reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="mediaSlide" class="slide blueBgImg">
+                <div class="slide5050">
+                    <h1 class="slideHeading">Games. Entertainment. Apps. And more.</h1>
+                    <div class="floatLeft">
+                        <div class="narrator">Discover new favourites in the Windows Store, your one-stop shop for great free and paid apps, popular games and entertainment.</div>
+                        <div class="disclaimer narrator">App and content availability varies by market</div>
+                    </div>
+                    <div class="floatRight"><img src="../resources/images/en/slide05.png" alt="Laptop showing apps and games in the Windows Store" /></div>
+                </div>
+                <div class="btnContainer oneCol">
+                    <div class="btnBlue floatLeft reserveBtn"></div>
+                </div>
+            </div>
+
+            <div id="doMore" class="slide blueBgImg">
+                <div class="heroCenter">
+                    <h1 class="slideHeading">Get your Windows 10 upgrade today!</h1>
+                    <p>It’s free. It&#39;s easy. No worries.</p>
+                </div>
+
+                <div class="btnContainer twoCol">
+                    <div class="btnBlue floatLeft reserveBtn"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="reserveBtnAlternateStrings"><a class="ctaButtonText reserveYourUpgrade" href="#">Reserve your free upgrade</a> <a class="ctaButtonText getStarted" href="#">Get Started</a> <a class="ctaButtonText rebootPending" href="#">Reboot now</a> <a class="ctaButtonText downloadCompleted" href="#">OK, let’s continue</a> <a class="ctaButtonText downloadInProgress" href="#">View download progress</a> <a class="ctaButtonText gatedWarn" href="#">OK, notify me when ready</a> <a class="ctaButtonText gatedBlock" href="#">OK, notify me when ready</a> <a class="ctaButtonText cannotInstall oemLink" href="http://go.microsoft.com/fwlink/?LinkId=524026" id="oemLink" target="_blank">Browse new PCs</a> <a class="ctaButtonText cannotInstallAlt oemLink" href="http://go.microsoft.com/fwlink/?LinkId=524026" target="_blank">OK, I’ll take a look</a> <a class="ctaButtonText getYourUpgrade" href="#">Get your free upgrade</a> <a class="ctaButtonText learnUpgrade" href="#">Learn how to upgrade</a> <a class="ctaButtonText learnWin10" href="#">Learn about Windows 10</a> <a class="ctaButtonText upgradeNow" href="#">Upgrade now</a> <a class="ctaButtonText downloadNow" href="#">Download now</a> <a class="ctaButtonText domainJoinedUpgrade" href="#">Choose when to upgrade</a> <a class="ctaButtonText domainJoinedInfo1" href="http://go.microsoft.com/fwlink/?LinkId=692013" target="_blank">Info for admins</a> <a class="ctaButtonText domainJoinedInfo2" href="http://go.microsoft.com/fwlink/?LinkId=692013" target="_blank">Administrative info</a> <a class="ctaButtonText upgradeLater1" href="#">Start download, upgrade later</a> <a class="ctaButtonText upgradeLater2" href="#">Upgrade later</a> <a class="ctaButtonText installLater" href="#">Start download, install later</a> <a class="ctaButtonText scheduleUpgrade" href="#">Schedule upgrade</a> <a class="ctaButtonText upgradeTonight" href="#">Upgrade tonight</a> <a class="ctaButtonText restartNow" href="#">Restart and upgrade now</a></div>
+
+        <div class="arrows"><a href="#" id="contentArrowSlideLeft" aria-label="Go to previous slide"><span class="arrowLeft" id="arrowLeft"></span></a> <a href="#" id="contentArrowSlideRight" aria-label="Go to next slide"><span class="arrowRight" id="arrowRight"></span></a></div>
+
+        <div class="video_elements"><iframe id="video_player" src="" seamless="seamless"></iframe> <a id="video_close">Close video</a></div>
+
+    </div>
+
+    <div class="footer" id="footerMain"><img src="../resources/images/msft_logo.png" class="footerLogo" alt="Microsoft" /> <a class="installInProgress">Installing Windows 10...</a></div>
+    <div class="footer" id="footerAlt"><img src="../resources/images/msft_logo.png" class="footerLogo" alt="Microsoft" /><div class="footerLinks"><a id="whatThisReportCovers" href="http://go.microsoft.com/fwlink/?LinkId=522193" target="_blank">What this report covers</a> <a href="56ad364e35_6.1.7601.23142_es-es_7ad5506c6027c8aa, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_fi-fi_3b5beb7625f1db91 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_fi-fi_19f055195541bad4, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_fr-fr_3ef85cc823a9ffc9 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_fr-fr_1d8cc66b52f9df0c, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_hu-hu_8668dd100809cee5 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_hu-hu_64fd46b33759ae28, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_it-it_2920530efadbe547 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_it-it_07b4bcb22a2bc48a, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_ja-jp_cb45d21bedf6f722 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_ja-jp_a9da3bbf1d46d665, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_ko-kr_6eafaed0e067be38 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_ko-kr_4d4418740fb79d7b, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_nb-no_57423005b88ce9f4 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_nb-no_35d699a8e7dcc937, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_nl-nl_55817b43b9b8f3c9 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_nl-nl_3415e4e6e908d30c, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_pl-pl_9bbdd5c59edb617d (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_pl-pl_7a523f68ce2b40c0, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_pt-br_9e11c0699d64f561 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_pt-br_7ca62a0cccb4d4a4, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_pt-pt_9ef38fd59cd4653d (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_pt-pt_7d87f978cc244480, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_ru-ru_e596a19981b5f369 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_ru-ru_c42b0b3cb105d2ac, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_sv-se_81918c0e78defdc4 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_sv-se_6025f5b1a82edd07, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_tr-tr_2a9ed655679affb5 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_tr-tr_09333ff896eadef8, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_zh-cn_fbfbf45317d2d1d4 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_zh-cn_da905df64722b117, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_zh-hk_faa6ece118ae4464 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_zh-hk_d93b568447fe23a7, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_0.0.0.0_zh-tw_fff831a91543ae44 (6.1.7601.23142), elevation:2, lower version revision holder: 6.1.7601.19021
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..t-windows.resources_31bf3856ad364e35_6.1.7601.23142_zh-tw_de8c9b4c44938d87, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-b..environment-windows_31bf3856ad364e35_0.0.0.0_none_e931285b8d524b85 (6.1.7601.23142), elevation:2, lower version revision holder: 6.1.7601.19021
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-b..environment-windows_31bf3856ad364e35_6.1.7601.23142_none_c7c591febca22ac8, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_ar-sa_5018449bdb59dcbf (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_ar-sa_2eacae3f0aa9bc02, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_cs-cz_a1619cbfb9620a41 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_cs-cz_7ff60662e8b1e984, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_da-dk_3e9b7ce6afa80640 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_da-dk_1d2fe689def7e583, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_de-de_3bc71222b17e5ada (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_de-de_1a5b7bc5e0ce3a1d, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_el-gr_e45d3fb5a093c368 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_el-gr_c2f1a958cfe3a2ab, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_en-us_e4b7e81ba05c669f (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_en-us_c34c51becfac45e2, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_es-es_e48344ffa0835844 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_es-es_c317aea2cfd33787, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_fi-fi_839e49ac959d4a6e (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_fi-fi_6232b34fc4ed29b1, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_fr-fr_873abafe93556ea6 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_fr-fr_65cf24a1c2a54de9, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_he-il_cb5a62a079c46f94 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_he-il_a9eecc43a9144ed7, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_hu-hu_ceab3b4677b53dc2 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_hu-hu_ad3fa4e9a7051d05, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_it-it_7162b1456a875424 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_it-it_4ff71ae899d73367, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_ja-jp_138830525da265ff (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_ja-jp_f21c99f58cf24542, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_ko-kr_b6f20d0750132d15 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_ko-kr_958676aa7f630c58, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_nb-no_9f848e3c283858d1 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_nb-no_7e18f7df57883814, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_nl-nl_9dc3d97a296462a6 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_nl-nl_7c58431d58b441e9, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_pl-pl_e40033fc0e86d05a (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_pl-pl_c2949d9f3dd6af9d, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_pt-br_e6541ea00d10643e (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_pt-br_c4e888433c604381, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_pt-pt_e735ee0c0c7fd41a (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_pt-pt_c5ca57af3bcfb35d, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_ru-ru_2dd8ffcff1616246 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_ru-ru_0c6d697320b14189, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_sv-se_c9d3ea44e88a6ca1 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_sv-se_a86853e817da4be4, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_tr-tr_72e1348bd7466e92 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_tr-tr_51759e2f06964dd5, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_zh-cn_443e5289877e40b1 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_zh-cn_22d2bc2cb6ce1ff4, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_0.0.0.0_zh-tw_483a8fdf84ef1d21 (6.1.7601.23142), elevation:2, lower version revision holder: 6.1.7600.16385
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..ityclient.resources_31bf3856ad364e35_6.1.7601.23142_zh-tw_26cef982b43efc64, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..tionauthorityclient_31bf3856ad364e35_0.0.0.0_none_577646ad3d2f3592 (6.1.7601.23142), elevation:2, lower version revision holder: 6.1.7601.17514
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..tionauthorityclient_31bf3856ad364e35_6.1.7601.23142_none_360ab0506c7f14d5, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_0.0.0.0_de-de_d03c3bd95f042854 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_6.1.7601.23142_de-de_aed0a57c8e540797, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_0.0.0.0_en-us_792d11d24de23419 (6.1.7601.23142), elevation:2, lower version revision holder: 6.1.7601.19021
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_6.1.7601.23142_en-us_57c17b757d32135c, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_0.0.0.0_es-es_78f86eb64e0925be (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_6.1.7601.23142_es-es_578cd8597d590501, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_0.0.0.0_fr-fr_1bafe4b540db3c20 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_6.1.7601.23142_fr-fr_fa444e58702b1b63, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_0.0.0.0_it-it_05d7dafc180d219e (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_6.1.7601.23142_it-it_e46c449f475d00e1, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_0.0.0.0_ja-jp_a7fd5a090b283379 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_6.1.7601.23142_ja-jp_8691c3ac3a7812bc, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_0.0.0.0_nl-nl_32390330d6ea3020 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-c..integrity.resources_31bf3856ad364e35_6.1.7601.23142_nl-nl_10cd6cd4063a0f63, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-codeintegrity_31bf3856ad364e35_0.0.0.0_none_2070826f054791b2 (6.1.7601.23142), elevation:2, lower version revision holder: 6.1.7601.19021
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-codeintegrity_31bf3856ad364e35_6.1.7601.23142_none_ff04ec12349770f5, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_ar-sa_7200c202d2207ab3 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_ar-sa_50952ba6017059f6, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_cs-cz_c34a1a26b028a835 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_cs-cz_a1de83c9df788778, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_da-dk_6083fa4da66ea434 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_da-dk_3f1863f0d5be8377, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_de-de_5daf8f89a844f8ce (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_de-de_3c43f92cd794d811, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_el-gr_0645bd1c975a615c (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_el-gr_e4da26bfc6aa409f, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_en-us_06a0658297230493 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_en-us_e534cf25c672e3d6, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_es-es_066bc2669749f638 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_es-es_e5002c09c699d57b, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_fi-fi_a586c7138c63e862 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_fi-fi_841b30b6bbb3c7a5, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_fr-fr_a92338658a1c0c9a (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_fr-fr_87b7a208b96bebdd, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_he-il_ed42e007708b0d88 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_he-il_cbd749aa9fdaeccb, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_hu-hu_f093b8ad6e7bdbb6 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_hu-hu_cf2822509dcbbaf9, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_it-it_934b2eac614df218 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_it-it_71df984f909dd15b, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_ja-jp_3570adb9546903f3 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_ja-jp_1405175c83b8e336, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_ko-kr_d8da8a6e46d9cb09 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_ko-kr_b76ef4117629aa4c, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_nb-no_c16d0ba31efef6c5 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_nb-no_a00175464e4ed608, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_nl-nl_bfac56e1202b009a (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_nl-nl_9e40c0844f7adfdd, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_pl-pl_05e8b163054d6e4e (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_pl-pl_e47d1b06349d4d91, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_pt-br_083c9c0703d70232 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_pt-br_e6d105aa3326e175, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_pt-pt_091e6b730346720e (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_pt-pt_e7b2d51632965151, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_ru-ru_4fc17d36e828003a (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_ru-ru_2e55e6da1777df7d, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_sv-se_ebbc67abdf510a95 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_sv-se_ca50d14f0ea0e9d8, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_tr-tr_94c9b1f2ce0d0c86 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_tr-tr_735e1b95fd5cebc9, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_zh-cn_6626cff07e44dea5 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_zh-cn_44bb3993ad94bde8, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_0.0.0.0_zh-tw_6a230d467bb5bb15 (6.1.7601.23142), elevation:2, lower version revision holder: 6.1.7601.19110
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa.resources_31bf3856ad364e35_6.1.7601.23142_zh-tw_48b776e9ab059a58, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-lsa_31bf3856ad364e35_0.0.0.0_none_26431bf35d52e5a2 (6.1.7601.23142), elevation:2, lower version revision holder: 6.1.7601.19110
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-lsa_31bf3856ad364e35_6.1.7601.23142_none_04d785968ca2c4e5, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-minkernelapinamespace_31bf3856ad364e35_0.0.0.0_none_8aaa81277c57a0a8 (6.1.7601.23142), elevation:2, lower version revision holder: 6.1.7601.19110
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-minkernelapinamespace_31bf3856ad364e35_6.1.7601.23142_none_693eeacaaba77feb, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_ar-sa_455e91a495618a59 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_ar-sa_23f2fb47c4b1699c, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_cs-cz_96a7e9c87369b7db (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_cs-cz_753c536ba2b9971e, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_da-dk_33e1c9ef69afb3da (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_da-dk_1276339298ff931d, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_de-de_310d5f2b6b860874 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_de-de_0fa1c8ce9ad5e7b7, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_el-gr_d9a38cbe5a9b7102 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_el-gr_b837f66189eb5045, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_en-us_d9fe35245a641439 (6.1.7601.23142), elevation:2, lower version revision holder: 6.1.7601.19110
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_en-us_b8929ec789b3f37c, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_es-es_d9c992085a8b05de (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_es-es_b85dfbab89dae521, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_fi-fi_78e496b54fa4f808 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_fi-fi_577900587ef4d74b, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_fr-fr_7c8108074d5d1c40 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_fr-fr_5b1571aa7cacfb83, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_he-il_c0a0afa933cc1d2e (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_he-il_9f35194c631bfc71, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_hu-hu_c3f1884f31bceb5c (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_hu-hu_a285f1f2610cca9f, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_it-it_66a8fe4e248f01be (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_it-it_453d67f153dee101, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_ja-jp_08ce7d5b17aa1399 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_ja-jp_e762e6fe46f9f2dc, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_ko-kr_ac385a100a1adaaf (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_ko-kr_8accc3b3396ab9f2, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_nb-no_94cadb44e240066b (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_nb-no_735f44e8118fe5ae, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  CBS    Appl: Selfupdate, Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_0.0.0.0_nl-nl_930a2682e36c1040 (6.1.7601.23142), elevation:2, lower version revision holder: 0.0.0.0
+2016-02-02 11:37:59, Info                  CBS    Applicability(ComponentAnalyzerEvaluateSelfUpdate): Component: amd64_microsoft-windows-m..ditevtlog.resources_31bf3856ad364e35_6.1.7601.23142_nl-nl_719e902612bbef83, elevate: 2, applicable(true/false): 0
+2016-02-02 11:37:59, Info                  C
